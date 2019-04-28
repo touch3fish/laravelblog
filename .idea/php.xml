@@ -79,7 +79,6 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/almasaeed2010/adminlte" />
       <path value="$PROJECT_DIR$/vendor/laravelchen/laravel-editormd" />
       <path value="$PROJECT_DIR$/vendor/zgldh/qiniu-laravel-storage" />
       <path value="$PROJECT_DIR$/vendor/qiniu/php-sdk" />
