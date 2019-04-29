@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('/test', function (){
     return view('test.test');
 });
+
+Route::get('/admin', function (){
+    return view('admin.admin');
+});
+
+Route::get('111', 'TestController@index');
