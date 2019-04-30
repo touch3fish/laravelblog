@@ -38,3 +38,6 @@ Route::post('/login','Admin\LoginController@login');
 //文章
 Route::get('/createpost','Admin\PostController@index');
 Route::post('/createpost','Admin\PostController@create');
+
+//home
+Route::get('/index','Home\IndexController@index');
