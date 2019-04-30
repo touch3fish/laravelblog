@@ -24,3 +24,13 @@ Route::get('/admin', function (){
 });
 
 Route::get('111', 'TestController@index');
+
+Route::get('/login',function (){
+   return view('admin.login');
+});
+
+Route::get('/register','Admin\RegisterController@index');
+Route::post('/register','Admin\RegisterController@register');
+Route::get('/login','Admin\LoginController@index');
+Route::post('/login','Admin\LoginController@login');
+Route::get('/createpost','Admin\PostController@index');
