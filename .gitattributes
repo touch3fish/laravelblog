@@ -1,5 +1,9 @@
-* text=auto
-*.css linguist-vendored
-*.scss linguist-vendored
-*.js linguist-vendored
-CHANGELOG.md export-ignore
+*.md linguist-language= php 
+*.yml linguist-language= php 
+*.html linguist-language= php 
+*.js linguist-language= php 
+*.xml linguist-language= php
+*.css linguist-language= php 
+*.sql linguist-language= php
+*.uml linguist-language= php 
+*.cmd linguist-language= php
