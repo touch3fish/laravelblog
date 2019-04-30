@@ -29,8 +29,12 @@ Route::get('/login',function (){
    return view('admin.login');
 });
 
+//登陆注册
 Route::get('/register','Admin\RegisterController@index');
 Route::post('/register','Admin\RegisterController@register');
 Route::get('/login','Admin\LoginController@index');
 Route::post('/login','Admin\LoginController@login');
+
+//文章
 Route::get('/createpost','Admin\PostController@index');
+Route::post('/createpost','Admin\PostController@create');

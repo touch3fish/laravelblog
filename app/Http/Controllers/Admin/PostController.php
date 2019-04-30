@@ -11,4 +11,15 @@ class PostController extends Controller
     {
         return view('admin.post.createpost');
     }
+
+    public function create(Request $request)
+    {
+
+        if($request->all()){
+            return response()->json([
+                'code' => 200,
+                'data' => $request->all(),
+            ]);
+        }
+    }
 }
