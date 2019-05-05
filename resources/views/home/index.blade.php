@@ -33,6 +33,7 @@
 </style>
     <link href="/css/app.css" rel="stylesheet" type="text/css">
 </head>
+@include('Smartmd::php-parse')
 <div class="background">
     @foreach($post as $v)
         <div class="banzi">
@@ -55,8 +56,5 @@
 <!-- markdown -->
 <script src="https://cdn.bootcss.com/showdown/1.3.0/showdown.min.js"></script>
 <script>
-    var content ='${post.content}'; //使用el表达式获取后台返回的markdown内容
-    var converter = new showdown.Converter(); //初始化转换器
-    var htmlcontent  = converter.makeHtml(content); //将MarkDown转为html格式的内容
-    $(".test").html(htmlcontent);//添加到 div 中 显示出来
+
 </script>

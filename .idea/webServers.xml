@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="14c9fbfd-fe9b-405d-a783-141488057988" name="gzh" url="http://39.96.44.75">
+        <fileTransfer host="39.96.44.75" port="22" rootFolder="/home/wwwroot/default/weichatgzh" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
